@@ -297,7 +297,7 @@ window.NOUNS = [
     "id": "n050",
     "g": "いきもの",
     "word": "かい",
-    "emoji": "🐚"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M42 102Q23 28 116 29q88 3 79 73l-77 39z\" fill=\"#9fcbb7\"/>\n<path d=\"M118 130L62 50m56 80-25-93m25 93 10-95m-10 95 45-82m-45 82 69-56\" fill=\"none\" stroke=\"#78a58f\" stroke-width=\"3\"/>\n<path d=\"M36 105q82-38 166 0-12 59-84 60-69 0-82-60z\" fill=\"#fffdf6\"/>\n<path d=\"M64 116q55-23 111 0-13 27-56 28-43 0-55-28z\" fill=\"#edb677\"/>\n<path d=\"M93 121q26-13 51 0\" fill=\"none\" stroke=\"#be8c58\" stroke-width=\"3\"/>\n</g></svg>"
   },
   {
     "id": "n051",
@@ -333,7 +333,7 @@ window.NOUNS = [
     "id": "n056",
     "g": "いきもの",
     "word": "かぶとむし",
-    "emoji": "🪲"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M92 84L65 65 54 76m37 30-33 2-15 14m51 5-25 22-3 13m82-78 27-19 11 11m-37 30 33 2 15 14m-51 5 25 22 3 13\" fill=\"none\" stroke=\"#5b493c\" stroke-width=\"7\"/>\n<ellipse cx=\"120\" cy=\"112\" rx=\"38\" ry=\"48\" fill=\"#886747\"/>\n<path d=\"M120 82v75\" fill=\"none\"/>\n<ellipse cx=\"120\" cy=\"73\" rx=\"29\" ry=\"24\" fill=\"#6d533b\"/>\n<path d=\"M111 60l4-27-7-10 7-7 9 10 9-10 7 7-12 12-1 27z\" fill=\"#6d533b\"/>\n<circle cx=\"101\" cy=\"69\" r=\"3\" fill=\"#fffdf6\" stroke=\"none\"/><circle cx=\"138\" cy=\"69\" r=\"3\" fill=\"#fffdf6\" stroke=\"none\"/>\n</g></svg>"
   },
   {
     "id": "n057",
@@ -369,7 +369,7 @@ window.NOUNS = [
     "id": "n062",
     "g": "たべもの",
     "word": "みかん",
-    "emoji": "🍊"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M105 53q-30-12-52 14-24 29-2 56 16 24 48 17 35 6 51-21 18-32-10-55-16-14-35-11z\" fill=\"#edab5e\"/>\n<path d=\"M99 53l5-17\" fill=\"none\" stroke-width=\"5\"/><path d=\"M103 40q12-22 39-10-9 18-39 10z\" fill=\"#9fcbb7\"/>\n<path d=\"M55 100q32 14 53 2 13 24 43 16-5 32-51 30-44 4-45-48z\" fill=\"#f7d7a6\" stroke=\"#c69053\"/>\n<path d=\"M159 95q34 2 43 40-32 13-56-11z\" fill=\"#f4bf7b\"/><path d=\"M160 103l-7 20m13-15 2 20m5-14 11 16\" stroke=\"#fff1d5\" stroke-width=\"3\"/>\n</g></svg>"
   },
   {
     "id": "n063",
@@ -417,7 +417,7 @@ window.NOUNS = [
     "id": "n070",
     "g": "たべもの",
     "word": "なし",
-    "emoji": "🍐"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M109 54q-20-19-43-2-39 27-21 72 13 34 54 30 42 2 51-34 12-42-13-65-14-13-28-1z\" fill=\"#dec18a\"/>\n<path d=\"M109 54q-1-22 9-31\" fill=\"none\" stroke=\"#886943\" stroke-width=\"7\"/>\n<path d=\"M117 33q17-24 39-6-17 21-39 6z\" fill=\"#9fcbb7\"/>\n<g fill=\"#aa8b55\" stroke=\"none\"><circle cx=\"64\" cy=\"84\" r=\"2\"/><circle cx=\"85\" cy=\"70\" r=\"2\"/><circle cx=\"120\" cy=\"79\" r=\"2\"/><circle cx=\"73\" cy=\"117\" r=\"2\"/><circle cx=\"100\" cy=\"134\" r=\"2\"/><circle cx=\"129\" cy=\"118\" r=\"2\"/><circle cx=\"97\" cy=\"101\" r=\"2\"/></g>\n<path d=\"M163 69l-25 85q56 9 68-35z\" fill=\"#e6c792\"/><path d=\"M163 69l-20 78q44 4 55-27z\" fill=\"#fffdf6\"/><ellipse cx=\"168\" cy=\"119\" rx=\"4\" ry=\"8\" transform=\"rotate(-16 168 119)\" fill=\"#7c5d3d\" stroke=\"none\"/>\n</g></svg>"
   },
   {
     "id": "n071",
@@ -681,7 +681,7 @@ window.NOUNS = [
     "id": "n114",
     "g": "たべもの",
     "word": "ぎゅうにゅう",
-    "emoji": "🥛"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M48 55l15-28h53l17 28v101H48z\" fill=\"#fffdf6\"/>\n<path d=\"M48 55h85l-17-28H63z\" fill=\"#9fcbb7\"/><path d=\"M63 27v-9h53v9M115 55v101\" fill=\"none\"/>\n<path d=\"M60 77q14-9 21 2t-4 21q-22 4-17-23m35 43q-13-8-19 2t8 21q20-4 11-23\" fill=\"#52645c\" stroke=\"none\"/>\n<path d=\"M145 83h54l-5 70h-44z\" fill=\"#ecf7f0\"/><path d=\"M148 101h48l-4 49h-41z\" fill=\"white\" stroke=\"none\"/><path d=\"M149 101h46\" stroke=\"#cbded3\" stroke-width=\"2\"/>\n</g></svg>"
   },
   {
     "id": "n115",
@@ -861,7 +861,7 @@ window.NOUNS = [
     "id": "n144",
     "g": "みにつけるもの",
     "word": "ますく",
-    "emoji": "😷"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M62 65q-40-19-34 26 3 34 37 33m113-59q40-19 34 26-3 34-37 33\" fill=\"none\" stroke=\"#7da394\" stroke-width=\"7\"/>\n<path d=\"M61 56q59-13 118 0v72q-59 28-118 0z\" fill=\"#d8eade\"/>\n<path d=\"M75 76q45 8 90 0M75 95q45 8 90 0m-90 19q45 9 90 0\" fill=\"none\" stroke=\"#88b5a1\" stroke-width=\"4\"/>\n</g></svg>"
   },
   {
     "id": "n145",
@@ -969,7 +969,7 @@ window.NOUNS = [
     "id": "n162",
     "g": "いえのもの",
     "word": "ふらいぱん",
-    "emoji": "🍳"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M134 91l60-39q15-9 24 5 7 11-4 19l-64 35z\" fill=\"#d3a375\"/>\n<path d=\"M37 104q0 45 61 45 62 0 62-45z\" fill=\"#6b807b\"/>\n<ellipse cx=\"98\" cy=\"102\" rx=\"62\" ry=\"36\" fill=\"#afc3ba\"/>\n<ellipse cx=\"98\" cy=\"102\" rx=\"49\" ry=\"25\" fill=\"#4e625c\"/>\n<ellipse cx=\"204\" cy=\"64\" rx=\"5\" ry=\"3\" transform=\"rotate(-32 204 64)\" fill=\"#fffdf6\" stroke=\"none\"/>\n</g></svg>"
   },
   {
     "id": "n163",
@@ -1053,7 +1053,7 @@ window.NOUNS = [
     "id": "n176",
     "g": "がっこう",
     "word": "ふで",
-    "emoji": "🖌️"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M157 24q8-11 17-4 7 6 0 15l-61 78-19-15z\" fill=\"#e5bf82\"/>\n<path d=\"M154 29l14 11m-31 10 14 11m-30 9 14 11\" stroke=\"#b38c56\" stroke-width=\"3\"/>\n<path d=\"M94 98l19 15q-7 24-47 42 12-18 12-31 0-15 16-26z\" fill=\"#354b48\"/>\n<path d=\"M88 126l-12 19\" stroke=\"#738980\" stroke-width=\"2\"/>\n</g></svg>"
   },
   {
     "id": "n177",
@@ -1089,7 +1089,7 @@ window.NOUNS = [
     "id": "n182",
     "g": "がっこう",
     "word": "のーと",
-    "emoji": "📓"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<rect x=\"64\" y=\"25\" width=\"119\" height=\"135\" rx=\"6\" fill=\"#9fcbb7\"/>\n<rect x=\"58\" y=\"19\" width=\"119\" height=\"135\" rx=\"6\" fill=\"#fffdf6\"/>\n<path d=\"M80 22v128\" stroke=\"#dfb8a1\" stroke-width=\"2\"/>\n<path d=\"M91 51h67m-67 19h67m-67 19h67m-67 19h67m-67 19h67\" stroke=\"#b1cbbf\" stroke-width=\"3\"/>\n<path d=\"M67 35H51m16 25H51m16 25H51m16 25H51m16 25H51\" stroke=\"#677f75\" stroke-width=\"6\"/>\n</g></svg>"
   },
   {
     "id": "n183",
@@ -1131,7 +1131,7 @@ window.NOUNS = [
     "id": "n189",
     "g": "がっこう",
     "word": "そろばん",
-    "emoji": "🧮"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<rect x=\"28\" y=\"24\" width=\"180\" height=\"114\" rx=\"5\" fill=\"#fffdf6\" stroke=\"#9a744d\" stroke-width=\"10\"/><path d=\"M49 32v96\" stroke=\"#b48758\" stroke-width=\"3\"/><path d=\"M72 32v96\" stroke=\"#b48758\" stroke-width=\"3\"/><path d=\"M95 32v96\" stroke=\"#b48758\" stroke-width=\"3\"/><path d=\"M118 32v96\" stroke=\"#b48758\" stroke-width=\"3\"/><path d=\"M141 32v96\" stroke=\"#b48758\" stroke-width=\"3\"/><path d=\"M164 32v96\" stroke=\"#b48758\" stroke-width=\"3\"/><path d=\"M187 32v96\" stroke=\"#b48758\" stroke-width=\"3\"/><path d=\"M40 45l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M40 76l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M40 90l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M40 104l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M40 118l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M63 45l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M63 76l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M63 90l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M63 104l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M63 118l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M86 45l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M86 76l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M86 90l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M86 104l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M86 118l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M109 45l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M109 76l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M109 90l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M109 104l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M109 118l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M132 45l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M132 76l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M132 90l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M132 104l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M132 118l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M155 45l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M155 76l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M155 90l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M155 104l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M155 118l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M178 45l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M178 76l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M178 90l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M178 104l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M178 118l9-6 9 6-9 6z\" fill=\"#edb677\" stroke-width=\"2\"/><path d=\"M34 61h168\" stroke=\"#9a744d\" stroke-width=\"8\"/>\n</g></svg>"
   },
   {
     "id": "n190",
@@ -1179,7 +1179,7 @@ window.NOUNS = [
     "id": "n197",
     "g": "しぜん",
     "word": "ゆき",
-    "emoji": "❄️"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M48 72q-26-11-13-32 8-13 25-10 11-25 37-10 23-19 43 4 33-7 40 22 24 3 21 25z\" fill=\"#e0ece5\"/><path d=\"M54 97h12m-6-6v12m-4-10 8 8m-8 0 8-8\" stroke=\"#7aa3a3\" stroke-width=\"3\"/><path d=\"M99 110h12m-6-6v12m-4-10 8 8m-8 0 8-8\" stroke=\"#7aa3a3\" stroke-width=\"3\"/><path d=\"M144 94h12m-6-6v12m-4-10 8 8m-8 0 8-8\" stroke=\"#7aa3a3\" stroke-width=\"3\"/><path d=\"M178 118h12m-6-6v12m-4-10 8 8m-8 0 8-8\" stroke=\"#7aa3a3\" stroke-width=\"3\"/>\n<path d=\"M25 153q23-24 48-6 22-20 47-4 24-22 46-3 26-16 49 11v16H25z\" fill=\"#fffdf6\" stroke=\"#aac5bd\"/>\n</g></svg>"
   },
   {
     "id": "n198",
@@ -1191,7 +1191,7 @@ window.NOUNS = [
     "id": "n199",
     "g": "しぜん",
     "word": "かみなり",
-    "emoji": "⚡"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<path d=\"M46 89q-27-13-11-36 9-12 25-9 8-25 34-22 20-14 39 6 27-9 41 16 26 0 30 24 2 22-22 23z\" fill=\"#8fa8a0\"/>\n<path d=\"M116 82l-23 43h23l-7 35 41-55h-26l16-23z\" fill=\"#edb677\"/>\n<path d=\"M54 110l-5 12m129-12-5 12\" stroke=\"#9fcbb7\" stroke-width=\"5\"/>\n</g></svg>"
   },
   {
     "id": "n200",
@@ -1203,7 +1203,7 @@ window.NOUNS = [
     "id": "n201",
     "g": "しぜん",
     "word": "うみ",
-    "emoji": "🌊"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<rect x=\"20\" y=\"25\" width=\"200\" height=\"130\" rx=\"16\" fill=\"#eaf5ed\" stroke=\"none\"/>\n<circle cx=\"181\" cy=\"49\" r=\"17\" fill=\"#edb677\" stroke=\"none\"/>\n<path d=\"M21 78h198v76H21z\" fill=\"#91c5bc\" stroke=\"none\"/>\n<path d=\"M21 78h198\" fill=\"none\" stroke=\"#6caaa2\" stroke-width=\"3\"/>\n<path d=\"M25 154q40-14 68-9 40-2 66-24 29-21 61-23v57z\" fill=\"#ecd6b2\" stroke=\"none\"/>\n<path d=\"M31 100q10 5 20 0m32 7q13 6 25 0m23-17q15 6 28 0m-105 30q12 5 21 0m100-11q13-7 26-8\" fill=\"none\" stroke=\"#fffdf6\" stroke-width=\"4\"/>\n</g></svg>"
   },
   {
     "id": "n202",
@@ -1479,7 +1479,7 @@ window.NOUNS = [
     "id": "n247",
     "g": "あそび",
     "word": "ぴあの",
-    "emoji": "🎹"
+    "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n<rect x=\"35\" y=\"30\" width=\"170\" height=\"101\" rx=\"6\" fill=\"#526861\"/><path d=\"M42 131v28m156-28v28\" stroke-width=\"12\"/>\n<rect x=\"47\" y=\"42\" width=\"146\" height=\"47\" rx=\"3\" fill=\"#78968a\"/>\n<path d=\"M34 99h172v34H34z\" fill=\"#fffdf6\"/><path d=\"M52 102v28\" stroke-width=\"1.8\"/><path d=\"M64 102v28\" stroke-width=\"1.8\"/><path d=\"M76 102v28\" stroke-width=\"1.8\"/><path d=\"M88 102v28\" stroke-width=\"1.8\"/><path d=\"M100 102v28\" stroke-width=\"1.8\"/><path d=\"M112 102v28\" stroke-width=\"1.8\"/><path d=\"M124 102v28\" stroke-width=\"1.8\"/><path d=\"M136 102v28\" stroke-width=\"1.8\"/><path d=\"M148 102v28\" stroke-width=\"1.8\"/><path d=\"M160 102v28\" stroke-width=\"1.8\"/><path d=\"M172 102v28\" stroke-width=\"1.8\"/><path d=\"M184 102v28\" stroke-width=\"1.8\"/><rect x=\"49\" y=\"101\" width=\"7\" height=\"17\" rx=\"1\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"61\" y=\"101\" width=\"7\" height=\"17\" rx=\"1\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"85\" y=\"101\" width=\"7\" height=\"17\" rx=\"1\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"97\" y=\"101\" width=\"7\" height=\"17\" rx=\"1\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"109\" y=\"101\" width=\"7\" height=\"17\" rx=\"1\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"133\" y=\"101\" width=\"7\" height=\"17\" rx=\"1\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"145\" y=\"101\" width=\"7\" height=\"17\" rx=\"1\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"169\" y=\"101\" width=\"7\" height=\"17\" rx=\"1\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"181\" y=\"101\" width=\"7\" height=\"17\" rx=\"1\" fill=\"#354b48\" stroke=\"none\"/>\n<path d=\"M110 135v15m20-15v15\" stroke=\"#d7b276\" stroke-width=\"7\"/>\n</g></svg>"
   },
   {
     "id": "n248",

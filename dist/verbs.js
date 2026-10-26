@@ -52,5 +52,80 @@ add('ける',ground+fig({head:[123,58],body:'M105 89L139 91L157 142L121 155Z',ar
 add('およぐ',p('M35 149Q62 105 119 135L203 139L186 162H70Z','#fff4e7')+p('M99 138L142 99L194 78M126 148L169 172L210 151M65 140L43 113L22 128')+c(194,78,7)+c(210,151,7)+face(231,118,'happy',8)+p('M15 167Q33 151 51 167T87 167T123 167T159 167T195 167T231 167T267 167T303 167','none',blue,6)+p('M20 196Q38 180 56 196T92 196T128 196T164 196T200 196T236 196T272 196','none','#b8d8e0',4)+marks('M179 61L173 48M196 60L203 44M51 105L46 92M31 106L19 99'));
 add('のる',c(79,176,36)+c(250,176,36)+p('M79 176L128 176L105 126L79 176L169 126L128 176M169 126L250 176L219 100H236','none','#6b9f8d',5)+p('M95 122H120M128 176L151 179')+fig({head:[152,48],body:'M134 79L168 81L181 116L135 132Z',arms:'M138 90L176 110L218 107M167 87L186 100L219 107',hands:[[219,107]],legs:'M142 133L175 151L151 178M160 130L124 150L130 174',feet:[[151,181],[129,179]]}),'じてんしゃに のる');
 add('あそぶ',fig({head:[102,71],body:'M85 102L120 102L133 151L86 157Z',arms:'M91 111L130 144L179 126M119 112L152 122L177 124',hands:[[179,126]],legs:'M96 160L68 188L109 200M122 158L149 191L120 202',feet:[[115,204],[122,206]],expr:'joy'})+rect(184,164,35,37,'#c4dfd5')+rect(223,164,35,37,'#e9bd8a')+rect(202,125,35,36,'#a9c9d8')+group(rect(0,0,30,30,'#e9bd8a'),'translate(173 96) rotate(-15)')+marks('M218 109L226 99M239 121L250 117'),'つみきで あそぶ');
-window.VERBS=scenes.map((s,i)=>({id:'v'+String(i+1).padStart(3,'0'),word:s.word,g:'うごき',note:s.note,art:`<svg viewBox="0 0 320 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">${s.art}</svg>`}));
+// Two-panel timelines. The pictures carry no written answer; 1→2 indicates order.
+const pair=(before,after)=>({sequence:true,viewBox:'0 0 680 270',art:`<rect x="3" y="3" width="314" height="264" rx="18" fill="#fff" stroke="#d8e1d2" stroke-width="2"/><rect x="363" y="3" width="314" height="264" rx="18" fill="#fff" stroke="#d8e1d2" stroke-width="2"/>${group(before,'translate(10 39) scale(.92)')}${group(after,'translate(370 39) scale(.92)')}<circle cx="25" cy="24" r="15" fill="#edf3e7"/><circle cx="385" cy="24" r="15" fill="#edf3e7"/><text x="25" y="30" text-anchor="middle" font-size="18" font-family="sans-serif" font-weight="bold" fill="${ink}">1</text><text x="385" y="30" text-anchor="middle" font-size="18" font-family="sans-serif" font-weight="bold" fill="${ink}">2</text>${arrow('M328 135H351M342 125L352 135L342 145')}`});
+const timeline=(word,before,after)=>Object.assign(scenes.find(s=>s.word===word),pair(before,after));
+const addPair=(word,before,after,note)=>{add(word,'',note);Object.assign(scenes[scenes.length-1],pair(before,after))};
+const original=word=>scenes.find(s=>s.word===word).art;
+const actor=(pose='stand',dx=0)=>group(fig(pose==='reach'?{head:[89,61],body:'M72 92L107 92L116 148Q91 160 68 148Z',arms:'M76 105L122 127L161 121M106 104L133 140L162 133',hands:[[161,121],[162,133]],legs:'M77 154L68 200M104 154L114 200',feet:[[60,207],[121,207]]}:pose==='bend'?{head:[137,100],body:'M111 113L143 127L110 164L77 146Z',arms:'M119 127L158 164L181 185M136 134L169 171L187 183',hands:[[181,185],[187,183]],legs:'M84 153L63 178L57 202M107 166L117 190L136 202',feet:[[49,209],[144,209]]}:{head:[89,61],body:'M72 92L107 92L116 148Q91 160 68 148Z',arms:'M75 103L55 137M107 103L128 136',hands:[[55,137],[128,136]],legs:'M77 154L68 200M104 154L114 200',feet:[[60,207],[121,207]]}),`translate(${dx} 0)`);
+const crate=(x,y,w=65)=>rect(x,y,w,54,'#e5c49d')+p(`M${x+4} ${y+4}L${x+w/2} ${y+17}L${x+w-4} ${y+4}M${x+w/2} ${y+17}V${y+48}`,'none','#a98c68',2);
+const paper=(x,y,a=0)=>group(rect(0,0,48,60)+p('M9 15H39M9 26H39M9 37H30','none','#a8b4ac',2),`translate(${x} ${y}) rotate(${a})`);
+const tray=()=>p('M170 146L193 122H276L295 146V194H170Z','#e7c9a3')+p('M170 146H295M193 122V145','none','#9a846c',3);
+const basket=()=>p('M187 125H277L267 205H197Z','#d6e4db')+p('M205 133V195M220 133V195M237 133V195M253 133V195','none','#9fb4a6',2);
+const desk=()=>rect(153,153,145,10,'#d6b28f')+p('M165 165V216M285 165V216');
+const clothed=()=>fig()+shirt(135,111,.6);
+const bareWithShirt=()=>fig({arms:'M119 99L103 134L184 139M153 99L173 123L199 140',hands:[[184,139],[199,140]]})+shirt(197,155,.52);
+timeline('きる',bareWithShirt(),clothed());
+timeline('ぬぐ',clothed(),bareWithShirt());
+const door=(open)=>rect(177,27,107,185,'#d7e7df')+(open?p('M284 28L234 56V189L284 211Z','#e9ca9d')+c(244,128,4,ink):rect(183,33,95,173,'#e9ca9d')+c(200,128,4,ink));
+timeline('あける',door(false)+actor('reach',40),door(true)+actor('reach',80));
+timeline('しめる',door(true)+actor('reach',80),door(false)+actor('reach',40));
+
+const push=(shift)=>ground+group(fig({head:[135,65],body:'M112 94L149 99L129 153L94 140Z',arms:'M118 108L144 137L168 166M144 108L157 150L168 183',hands:[[168,166],[168,183]],legs:'M104 147L82 177L59 205M126 154L140 181L159 204',feet:[[51,210],[166,210]]})+crate(168,150),'translate('+shift+' 0)')+p('M25 220V211M290 220V211','none','#8c9a90',2);
+
+timeline('おす',push(-14),push(34));
+const pull=(shift)=>ground+group(crate(22,151)+actor('reach',102)+p('M87 174L166 125','none','#9a846c',4),'translate('+shift+' 0)')+p('M25 220V211M290 220V211','none','#8c9a90',2);
+// The pulling person is on the right, leaning away, with hands on the taut rope.
+const pulling=(shift)=>ground+group(crate(21,151)+fig({head:[214,63],body:'M193 93L228 92L236 149L202 152Z',arms:'M198 105L172 126M228 103L204 142L173 134',hands:[[172,126],[173,134]],legs:'M208 156L183 182L168 204M229 155L250 183L266 203',feet:[[160,210],[274,210]]})+p('M87 170L172 130','none','#9a846c',4),`translate(${shift} 0)`);
+timeline('ひく',pulling(-12),pulling(18));
+const heldBall=()=>fig({arms:'M121 102L149 126L178 107M155 102L180 132L194 113',hands:[[178,107],[194,113]]})+ball(195,96,18);
+timeline('なげる',heldBall(),original('なげる'));
+timeline('うけとる',actor('reach')+ball(260,100,18),actor('reach')+ball(174,116,18));
+timeline('ける',ground+fig()+ball(214,199,18),original('ける'));
+timeline('すわる',chair()+group(fig(),'translate(-31 0)'),chair()+seated());
+timeline('たつ',chair()+seated(),chair()+group(fig(),'translate(33 0)'));
+timeline('おきる',original('ねる'),original('おきる'));
+// Three children face the same direction and keep personal space in a line.
+const mini=(x,highlight=false)=>group(fig(),`translate(${x} 65) scale(.65)`);
+addPair('ならぶ',mini(-50)+mini(100)+group(fig(),'translate(63 24) scale(.65)')+marks('M154 169L174 181'),mini(-50)+mini(27)+mini(104),'じゅんばんに ならぶ');
+const papersDesk=(count)=>desk()+Array.from({length:count},(_,i)=>paper(175+i*9,116-i*3)).join('');
+const recipient=()=>group(seated(),'translate(184 84) scale(.55)');
+const giving=(papers)=>actor('reach')+recipient()+paper(159,111,-12)+(papers?paper(116,151,-12):'');
+const distributing=(after)=>group(fig({arms:'M119 99L146 124L192 119M153 99L176 134L192 124',hands:[[192,119],[192,124]]}),'translate(8 -10) scale(.5)')+Array.from({length:after?2:5},(_,i)=>group(paper(0,0),`translate(${107+i*2} ${38+i*2}) scale(.42)`)).join('')+[0,100,200].map(x=>group(seated(),`translate(${x} 103) scale(.45)`)+rect(x+25,177,64,7,'#d6b28f')+p(`M${x+30} 184V213M${x+83} 184V213`)+(after?rect(x+40,168,33,8):'')).join('');
+addPair('くばる',distributing(false),distributing(true),'ぷりんとを みんなに くばる');
+
+const shelf=()=>rect(171,84,126,125,'#e6dbc7')+p('M175 147H293','none',ink,4);
+const looseBooks=()=>book(168,154)+paper(122,173,25);
+const tidyBooks=()=>rect(187,98,15,46,'#c7ddd4')+rect(205,100,15,44,'#e8be8d')+rect(223,94,16,50,'#aac8d5');
+addPair('かたづける',shelf()+actor()+looseBooks(),shelf()+tidyBooks()+actor('reach'),'つかった ほんを かたづける');
+const carry=(dx,walking=false)=>ground+group((walking?fig({head:[89,61],body:'M72 92L107 92L116 148Q91 160 68 148Z',arms:'M76 105L122 127L161 121M106 104L133 140L162 133',hands:[[161,121],[162,133]],legs:'M77 154L55 182L32 204M104 154L126 179L150 204',feet:[[24,210],[158,210]]}):actor('reach'))+crate(154,117),`translate(${dx} 0)`)+p('M20 220V213M290 220V213','none','#8c9a90',2);
+
+addPair('はこぶ',carry(-25),carry(42,true)+marks('M102 217H119M147 217H164'),'はこを べつの ばしょへ はこぶ');
+add('もつ',actor('reach')+crate(154,117)+ground,'はこを もつ');
+addPair('おく',desk()+actor('reach')+paper(161,100),desk()+actor()+rect(209,144,66,8)+p('M213 147H270','none','#b1beb4',2),'ほんを つくえに おく');
+addPair('いれる',tray()+actor('reach')+ball(178,103,19),tray()+ball(229,147,19)+p('M172 161H293V192H172Z','#e7c9a3','none',0)+actor(),'ぼーるを はこに いれる');
+addPair('だす',tray()+ball(229,147,19)+p('M172 161H293V192H172Z','#e7c9a3','none',0)+actor(),tray()+actor('reach')+ball(178,103,19),'ぼーるを はこから だす');
+const card=(x,y)=>rect(x,y,35,25,'#d5e4d9')+p(`M${x+7} ${y+8}H${x+28}`,'none','#97ae9e',2);
+addPair('あつめる',desk()+actor('reach')+card(175,123)+card(225,123)+card(270,123),desk()+actor('reach')+card(158,105)+card(161,101)+card(164,97),'ぷりんとを あつめる');
+const twoPeople=(transfer)=>group(fig({arms:'M121 102L160 126L210 120M153 102L184 131L211 125',hands:[]}), 'translate(-57 59) scale(.7)')+group(fig({arms:'M119 99L81 127L35 121M153 99L119 135L36 126',hands:[]}), 'translate(154 59) scale(.7)')+paper(transfer?178:90,135,-7);
+addPair('わたす',twoPeople(false),twoPeople(true),'ほんを ともだちに わたす');
+addPair('ひろう',actor()+ground+paper(192,178,10),actor('bend')+ground+paper(183,146,8),'おちた かみを ひろう');
+addPair('すてる',basket()+actor('reach')+p('M171 106L185 100L197 110L190 122L174 119Z','#fff'),basket()+actor()+p('M222 164L236 158L248 168L241 180L225 177Z','#fff'),'ごみを ごみばこに すてる');
+const wipedDesk=(dirty)=>desk()+actor('reach')+p('M164 140L191 141L198 152H166Z','#c9ddd1')+(dirty?p('M207 147L219 143M233 145L241 149M262 144L273 147','none','#8e795e',4):marks('M231 125V139M224 132H238M264 135V147M258 141H270'));
+addPair('ふく',wipedDesk(true),wipedDesk(false),'ぞうきんで つくえを ふく');
+const board=()=>rect(170,37,127,153,'#d7e5d9');
+addPair('はる',board()+actor('reach')+paper(136,116),board()+paper(207,86)+actor('reach'),'かみを かべに はる');
+addPair('おる',desk()+actor('reach')+rect(184,93,80,56,'#e6c499'),desk()+actor('reach')+p('M184 149L264 93V149Z','#e6c499')+p('M184 149L264 93','none','#b09069',3),'かみを はんぶんに おる');
+addPair('ならべる',desk()+actor('reach')+rect(169,129,29,23,'#c6dcd3')+rect(211,106,23,45,'#e3b78a')+group(rect(0,0,27,30,'#a7c8d4'),'translate(255 123) rotate(18)'),desk()+actor('reach')+rect(166,119,29,32,'#c6dcd3')+rect(211,119,29,32,'#e3b78a')+rect(256,119,29,32,'#a7c8d4'),'ものを いちれつに ならべる');
+const clock=(late)=>c(252,57,29)+p(late?'M252 57L252 38M252 57L271 57':'M252 57L252 38M252 57L240 72','none',ink,3)+c(252,57,2,ink);
+addPair('まつ',actor()+clock(false)+rect(190,94,103,116,'#e2e9dc')+c(277,153,4,ink),actor()+clock(true)+rect(190,94,103,116,'#e2e9dc')+c(277,153,4,ink),'じゅんばんが くるまで まつ');
+const deskSmall=()=>rect(80,155,172,10,'#d7b895')+p('M93 167V214M239 167V214');
+const raised=()=>fig({head:[132,69],body:'M114 100Q132 108 150 100L154 151Q132 160 110 148Z',arms:'M115 108L126 135L163 141M149 108L180 73L180 22',hands:[[163,141],[180,22]],legs:'M118 154H171V200M143 155H184V197',feet:[[170,206],[190,204]]});
+addPair('てをあげる',deskSmall()+seated(),deskSmall()+raised(),'はっぴょうするとき てを あげる');
+const bowed=()=>fig({head:[182,103],body:'M129 100L166 116L132 157L103 140Z',arms:'M136 111L151 142L175 158M155 121L170 147L181 157',hands:[[175,158],[181,157]],legs:'M115 150L109 200M135 155L146 200',feet:[[101,208],[153,208]]});
+addPair('おじぎをする',ground+fig(),ground+bowed(),'あいてに むかって おじぎを する');
+const scissors=(closed)=>c(164,124,10)+c(166,149,10)+p(closed?'M171 132L222 121M174 142L222 121':'M171 132L220 105M174 142L226 157','none',ink,4);
+addPair('かみをきる',desk()+actor('reach')+rect(202,100,64,51,'#e4c39c')+scissors(false),desk()+actor('reach')+p('M202 100H234V151H202Z','#e4c39c')+p('M249 110H272V155H249Z','#e4c39c')+scissors(true),'はさみで かみを きる');
+
+window.VERBS=scenes.map((s,i)=>({id:'v'+String(i+1).padStart(3,'0'),word:s.word,g:'うごき',note:s.note,sequence:!!s.sequence,art:`<svg viewBox="${s.viewBox||'0 0 320 240'}" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">${s.art}</svg>`}));
 })();
