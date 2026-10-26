@@ -1498,5 +1498,305 @@ window.NOUNS = [
     "g": "あそび",
     "word": "ばいおりん",
     "emoji": "🎻"
-  }
+  },
+{
+  "word": "すべりだい",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M36 150V46h63v104M39 122h28m-28-24h28m-28-24h28M70 49V28h33v24\" fill=\"none\" stroke-width=\"8\"/><path d=\"M97 49q19 18 41 58 21 31 66 34v15q-59 2-82-37L84 55Z\" fill=\"#edb677\" /></g></svg>",
+  "id": "n251"
+},
+{
+  "word": "ぶらんこ",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M33 151L72 30h94l40 121M72 30l34 121m60-121-36 121\" fill=\"none\" stroke-width=\"8\"/><path d=\"M90 34v84m58-84v84\" fill=\"none\" stroke=\"#809c90\"/><rect x=\"78\" y=\"115\" width=\"82\" height=\"14\" rx=\"5\" fill=\"#edb677\" /></g></svg>",
+  "id": "n252"
+},
+{
+  "word": "てつぼう",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M56 153V43h128v110\" fill=\"none\" stroke-width=\"10\"/><path d=\"M43 157h27m101 0h27\" fill=\"none\" stroke=\"#9fcbb7\" stroke-width=\"9\"/></g></svg>",
+  "id": "n253"
+},
+{
+  "word": "かいだん",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M34 147v-25h38V97h38V72h38V47h49v100Z\" fill=\"#9fcbb7\" /><path d=\"M40 98l150-91m-112 67v27m37-49v27m37-48v28\" fill=\"none\" stroke=\"#b38d67\" stroke-width=\"7\"/></g></svg>",
+  "id": "n254"
+},
+{
+  "word": "げたばこ",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"31\" y=\"28\" width=\"178\" height=\"127\" rx=\"5\" fill=\"#edb677\" /><path d=\"M90 30v123m59-123v123M33 90h174\" fill=\"none\" /><path d=\"M48 66v-12h15v8l10 3v8h-25Z\" fill=\"#fffdf6\" stroke-width=\"2\"/><path d=\"M107 65v-12h15v8l10 3v8h-25Z\" fill=\"#fffdf6\" stroke-width=\"2\"/><path d=\"M165 65v-12h15v8l10 3v8h-25Z\" fill=\"#fffdf6\" stroke-width=\"2\"/><path d=\"M48 126v-12h15v8l10 3v8h-25Z\" fill=\"#fffdf6\" stroke-width=\"2\"/><path d=\"M165 126v-12h15v8l10 3v8h-25Z\" fill=\"#fffdf6\" stroke-width=\"2\"/></g></svg>",
+  "id": "n255"
+},
+{
+  "word": "らんどせる",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M71 64q-42 3-29 65l27 14m99-79q42 3 29 65l-27 14\" fill=\"none\" stroke=\"#9e6246\" stroke-width=\"9\"/><rect x=\"69\" y=\"35\" width=\"102\" height=\"120\" rx=\"14\" fill=\"#edb677\" /><path d=\"M91 35V23q30-18 58 0v12\" fill=\"none\" stroke-width=\"7\"/><path d=\"M69 52q51-20 102 0v59q-51 15-102 0Z\" fill=\"#d89367\" /><rect x=\"110\" y=\"115\" width=\"20\" height=\"13\" rx=\"3\" fill=\"#fffdf6\" /></g></svg>",
+  "id": "n256"
+},
+{
+  "word": "ちょーく",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"49\" y=\"50\" width=\"29\" height=\"91\" rx=\"7\" fill=\"#fffdf6\" /><path d=\"M56 62h15\" fill=\"none\" stroke=\"#cddcd3\"/><rect x=\"106\" y=\"66\" width=\"29\" height=\"75\" rx=\"7\" fill=\"#edb677\" /><rect x=\"158\" y=\"44\" width=\"29\" height=\"97\" rx=\"7\" fill=\"#9fcbb7\" /><ellipse cx=\"63.5\" cy=\"54\" rx=\"14\" ry=\"5\" fill=\"#fffdf6\" stroke-width=\"2\"/><ellipse cx=\"120.5\" cy=\"70\" rx=\"14\" ry=\"5\" fill=\"#edb677\" stroke-width=\"2\"/><ellipse cx=\"172.5\" cy=\"48\" rx=\"14\" ry=\"5\" fill=\"#9fcbb7\" stroke-width=\"2\"/></g></svg>",
+  "id": "n257"
+},
+{
+  "word": "こくばんけし",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M53 82l109-22 30 27-107 23Z\" fill=\"#edb677\" /><path d=\"M53 82v25l32 25v-22Z\" fill=\"#e5b379\" /><path d=\"M85 110l107-23v26L85 137Z\" fill=\"#9fcbb7\" /><path d=\"M53 107l32 25 107-19v14L85 150l-32-27Z\" fill=\"#6d8f7b\" /></g></svg>",
+  "id": "n258"
+},
+{
+  "word": "せろはんてーぷ",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"105\" cy=\"89\" rx=\"57\" ry=\"55\" fill=\"#dce8d4\" /><ellipse cx=\"105\" cy=\"89\" rx=\"29\" ry=\"29\" fill=\"#fffdf6\" /><path d=\"M152 68l46 30-12 55-46-28\" fill=\"#e7eee0\" fill-opacity=\"0.8\"/><path d=\"M185 153l-9-4-4-7-8-1-5-7-7-2\" fill=\"none\" /></g></svg>",
+  "id": "n259"
+},
+{
+  "word": "ほっちきす",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M49 127h143v22H49Z\" fill=\"#9fcbb7\" /><path d=\"M51 126l17-76 126 46-6 23L74 86l-7 40Z\" fill=\"#edb677\" /><path d=\"M74 86l-8 33h118\" fill=\"none\" stroke=\"#91a6a0\" stroke-width=\"9\"/><ellipse cx=\"64\" cy=\"119\" rx=\"7\" ry=\"7\" fill=\"#fffdf6\" /></g></svg>",
+  "id": "n260"
+},
+{
+  "word": "おりがみ",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M31 126l82-28 51-50-14 63 57 17-74 15Z\" fill=\"#edb677\" /><path d=\"M113 98L77 32l56 71 31-55m-51 50 20 45 17-32m-37-13-51 18\" fill=\"none\" stroke=\"#9b7750\" stroke-width=\"2\"/><path d=\"M150 111l41-37 18 6-17 7-21 42Z\" fill=\"#9fcbb7\" /></g></svg>",
+  "id": "n261"
+},
+{
+  "word": "えんぴつけずり",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"65\" y=\"43\" width=\"108\" height=\"112\" rx=\"13\" fill=\"#9fcbb7\" /><ellipse cx=\"103\" cy=\"74\" rx=\"22\" ry=\"21\" fill=\"#fffdf6\" /><ellipse cx=\"103\" cy=\"74\" rx=\"8\" ry=\"8\" fill=\"#354b48\" /><rect x=\"80\" y=\"111\" width=\"77\" height=\"32\" rx=\"5\" fill=\"#fffdf6\" /><path d=\"M174 78h26v32h13\" fill=\"none\" stroke-width=\"8\"/><rect x=\"205\" y=\"98\" width=\"14\" height=\"25\" rx=\"5\" fill=\"#edb677\" /><path d=\"M98 78L39 42l-14-1 7 12 63 38Z\" fill=\"#edb677\" /></g></svg>",
+  "id": "n262"
+},
+{
+  "word": "うわばき",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M60 41q30-13 45 0l-5 67q22 11 18 30-20 20-63 9-10-7-8-24Z\" fill=\"#fffdf6\" /><path d=\"M63 55l31 3-4 38-31-3Z\" fill=\"#9fcbb7\" /><path d=\"M49 126q34-9 65 6v11q-37 18-65 2Z\" fill=\"#edb677\" /><path d=\"M142 42q30-12 43 1l-3 66q23 12 20 31-23 20-63 7-10-8-8-24Z\" fill=\"#fffdf6\" /><path d=\"M145 56l29 3-3 38-31-4Z\" fill=\"#9fcbb7\" /><path d=\"M133 126q34-9 66 6v11q-37 18-66 2Z\" fill=\"#edb677\" /></g></svg>",
+  "id": "n263"
+},
+{
+  "word": "なわとび",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M75 52q-64 27-33 83 24 43 81 15 61-29 59-74-2-24-23-29\" fill=\"none\" stroke=\"#9fcbb7\" stroke-width=\"7\"/><rect x=\"66\" y=\"28\" width=\"20\" height=\"58\" rx=\"8\" fill=\"#edb677\" transform=\"rotate(24 76 57)\"/><rect x=\"151\" y=\"22\" width=\"20\" height=\"58\" rx=\"8\" fill=\"#edb677\" transform=\"rotate(-24 161 51)\"/></g></svg>",
+  "id": "n264"
+},
+{
+  "word": "ふらふーぷ",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"130\" cy=\"93\" rx=\"65\" ry=\"65\" fill=\"#9fcbb7\" /><ellipse cx=\"130\" cy=\"93\" rx=\"55\" ry=\"55\" fill=\"#fffdf6\" /><path d=\"M72 63l9 5m106 3-10 4m-52 75 1 9m-28-121-4-9\" fill=\"none\" stroke=\"#edb677\" stroke-width=\"8\"/></g></svg>",
+  "id": "n265"
+},
+{
+  "word": "りこーだー",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M102 22h30v25l6 91 7 17h-56l7-17 6-91Z\" fill=\"#fffdf6\" /><rect x=\"106\" y=\"24\" width=\"22\" height=\"20\" rx=\"1\" fill=\"#9fcbb7\" /><path d=\"M99 52h36m-40 84h44\" fill=\"none\" /><ellipse cx=\"117\" cy=\"66\" rx=\"3\" ry=\"3\" fill=\"#354b48\" stroke=\"none\"/><ellipse cx=\"117\" cy=\"80\" rx=\"3\" ry=\"3\" fill=\"#354b48\" stroke=\"none\"/><ellipse cx=\"117\" cy=\"94\" rx=\"3\" ry=\"3\" fill=\"#354b48\" stroke=\"none\"/><ellipse cx=\"117\" cy=\"108\" rx=\"3\" ry=\"3\" fill=\"#354b48\" stroke=\"none\"/><ellipse cx=\"117\" cy=\"122\" rx=\"3\" ry=\"3\" fill=\"#354b48\" stroke=\"none\"/></g></svg>",
+  "id": "n266"
+},
+{
+  "word": "けんばんはーもにか",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"39\" y=\"59\" width=\"164\" height=\"77\" rx=\"12\" fill=\"#9fcbb7\" /><rect x=\"51\" y=\"78\" width=\"141\" height=\"45\" rx=\"1\" fill=\"#fffdf6\" /><path d=\"M62 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M73 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M84 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M95 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M106 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M117 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M128 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M139 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M150 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M161 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M172 79v43\" fill=\"none\" stroke-width=\"2\"/><path d=\"M183 79v43\" fill=\"none\" stroke-width=\"2\"/><rect x=\"59\" y=\"79\" width=\"6\" height=\"26\" rx=\"0\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"70\" y=\"79\" width=\"6\" height=\"26\" rx=\"0\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"92\" y=\"79\" width=\"6\" height=\"26\" rx=\"0\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"103\" y=\"79\" width=\"6\" height=\"26\" rx=\"0\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"114\" y=\"79\" width=\"6\" height=\"26\" rx=\"0\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"136\" y=\"79\" width=\"6\" height=\"26\" rx=\"0\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"147\" y=\"79\" width=\"6\" height=\"26\" rx=\"0\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"169\" y=\"79\" width=\"6\" height=\"26\" rx=\"0\" fill=\"#354b48\" stroke=\"none\"/><rect x=\"180\" y=\"79\" width=\"6\" height=\"26\" rx=\"0\" fill=\"#354b48\" stroke=\"none\"/><path d=\"M42 74q-31-5-21-29 8-19 25-20\" fill=\"none\" stroke=\"#9fcbb7\" stroke-width=\"7\"/><rect x=\"42\" y=\"16\" width=\"33\" height=\"14\" rx=\"5\" fill=\"#fffdf6\" /></g></svg>",
+  "id": "n267"
+},
+{
+  "word": "えのぐ",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M57 53h16l7 13-2 73H52l-2-73Z\" fill=\"#fffdf6\" /><path d=\"M51 79h28l-1 36H52Z\" fill=\"#edb677\" /><rect x=\"57\" y=\"33\" width=\"16\" height=\"20\" rx=\"2\" fill=\"#354b48\" /><path d=\"M49 142h32m-32-5h32\" fill=\"none\" stroke-width=\"3\"/><path d=\"M111 53h16l7 13-2 73H106l-2-73Z\" fill=\"#fffdf6\" /><path d=\"M105 79h28l-1 36H106Z\" fill=\"#9fcbb7\" /><rect x=\"111\" y=\"33\" width=\"16\" height=\"20\" rx=\"2\" fill=\"#354b48\" /><path d=\"M103 142h32m-32-5h32\" fill=\"none\" stroke-width=\"3\"/><path d=\"M165 53h16l7 13-2 73H160l-2-73Z\" fill=\"#fffdf6\" /><path d=\"M159 79h28l-1 36H160Z\" fill=\"#94c5d3\" /><rect x=\"165\" y=\"33\" width=\"16\" height=\"20\" rx=\"2\" fill=\"#354b48\" /><path d=\"M157 142h32m-32-5h32\" fill=\"none\" stroke-width=\"3\"/></g></svg>",
+  "id": "n268"
+},
+{
+  "word": "ぱれっと",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M199 77q-18-54-85-41-76 14-76 65 4 54 67 54 21 1 18-19-4-26 24-23 47 17 52-36Z\" fill=\"#fffdf6\" /><ellipse cx=\"151\" cy=\"72\" rx=\"15\" ry=\"13\" fill=\"#fffdf6\" /><ellipse cx=\"73\" cy=\"86\" rx=\"12\" ry=\"12\" fill=\"#edb677\" /><ellipse cx=\"102\" cy=\"59\" rx=\"10\" ry=\"10\" fill=\"#9fcbb7\" /><ellipse cx=\"70\" cy=\"121\" rx=\"11\" ry=\"11\" fill=\"#94c5d3\" /><ellipse cx=\"104\" cy=\"132\" rx=\"8\" ry=\"8\" fill=\"#d88c79\" /></g></svg>",
+  "id": "n269"
+},
+{
+  "word": "むしめがね",
+  "g": "がっこう",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"103\" cy=\"74\" rx=\"44\" ry=\"44\" fill=\"#9fcbb7\" /><ellipse cx=\"103\" cy=\"74\" rx=\"33\" ry=\"33\" fill=\"#e9f5f0\" /><path d=\"M136 107l49 47\" fill=\"none\" stroke=\"#354b48\" stroke-width=\"23\"/><path d=\"M138 109l47 45\" fill=\"none\" stroke=\"#edb677\" stroke-width=\"15\"/><path d=\"M84 63q5-12 18-13\" fill=\"none\" stroke=\"white\" stroke-width=\"6\"/></g></svg>",
+  "id": "n270"
+},
+{
+  "word": "たおる",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M41 46h160\" fill=\"none\" stroke=\"#b1916d\" stroke-width=\"8\"/><path d=\"M71 44h98v106H71Z\" fill=\"#fffdf6\" /><path d=\"M71 122h98m-98 14h98\" fill=\"none\" stroke=\"#9fcbb7\" stroke-width=\"8\"/><path d=\"M78 151v7m15-7v7m15-7v7m15-7v7m15-7v7m15-7v7\" fill=\"none\" stroke-width=\"2\"/></g></svg>",
+  "id": "n271"
+},
+{
+  "word": "ぞうきん",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M43 56l145-13 12 98-145 14Z\" fill=\"#fffdf6\" /><path d=\"M54 65l123-11 11 77-123 13Z\" fill=\"none\" stroke=\"#9fcbb7\" stroke-width=\"3\" stroke-dasharray=\"5 5\"/><path d=\"M54 65l134 66m-11-77L65 144\" fill=\"none\" stroke=\"#9fcbb7\" stroke-width=\"3\" stroke-dasharray=\"5 5\"/><path d=\"M26 147h11m162 12h15\" fill=\"none\" stroke=\"#b6a187\"/></g></svg>",
+  "id": "n272"
+},
+{
+  "word": "こっぷ",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M75 44h91l-9 105H84Z\" fill=\"#eaf6ef\" /><ellipse cx=\"120\" cy=\"44\" rx=\"45\" ry=\"10\" fill=\"#fffdf6\" /><path d=\"M91 105h58\" fill=\"none\" stroke=\"#b9d7ce\"/><path d=\"M88 61l4 31\" fill=\"none\" stroke=\"white\" stroke-width=\"6\"/></g></svg>",
+  "id": "n273"
+},
+{
+  "word": "はんこ",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M93 38q27-22 54 0l-8 65h-38Z\" fill=\"#edb677\" /><rect x=\"87\" y=\"101\" width=\"66\" height=\"25\" rx=\"5\" fill=\"#9fcbb7\" /><rect x=\"84\" y=\"124\" width=\"72\" height=\"12\" rx=\"5\" fill=\"#354b48\" /><ellipse cx=\"174\" cy=\"146\" rx=\"22\" ry=\"12\" fill=\"none\" stroke=\"#c97c66\" stroke-width=\"3\"/><path d=\"M174 137v18m-9-9h18\" fill=\"none\" stroke=\"#c97c66\" stroke-width=\"3\"/></g></svg>",
+  "id": "n274"
+},
+{
+  "word": "せんたくき",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"57\" y=\"22\" width=\"127\" height=\"136\" rx=\"8\" fill=\"#fffdf6\" /><rect x=\"57\" y=\"22\" width=\"127\" height=\"32\" rx=\"8\" fill=\"#9fcbb7\" /><ellipse cx=\"151\" cy=\"38\" rx=\"8\" ry=\"8\" fill=\"#edb677\" /><ellipse cx=\"121\" cy=\"103\" rx=\"43\" ry=\"43\" fill=\"#9fcbb7\" /><ellipse cx=\"121\" cy=\"103\" rx=\"31\" ry=\"31\" fill=\"#e8f2ec\" /><path d=\"M96 104q23-18 49 3l-8 16-34 1Z\" fill=\"#edb677\" /><path d=\"M71 37h31\" fill=\"none\" stroke-width=\"5\"/></g></svg>",
+  "id": "n275"
+},
+{
+  "word": "れいぞうこ",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"75\" y=\"15\" width=\"95\" height=\"148\" rx=\"8\" fill=\"#fffdf6\" /><path d=\"M76 68h93\" fill=\"none\" /><path d=\"M89 34v18m0 37v31\" fill=\"none\" stroke=\"#9fcbb7\" stroke-width=\"7\"/><path d=\"M86 163v4m72-4v4\" fill=\"none\" stroke-width=\"7\"/></g></svg>",
+  "id": "n276"
+},
+{
+  "word": "そうじき",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"79\" cy=\"122\" rx=\"47\" ry=\"29\" fill=\"#9fcbb7\" /><ellipse cx=\"57\" cy=\"143\" rx=\"12\" ry=\"12\" fill=\"#354b48\" /><ellipse cx=\"103\" cy=\"143\" rx=\"12\" ry=\"12\" fill=\"#354b48\" /><path d=\"M102 105q-3-65 38-66 47 7 30 55\" fill=\"none\" stroke=\"#789f8b\" stroke-width=\"10\"/><path d=\"M168 88l-10 53\" fill=\"none\" stroke=\"#8b9c96\" stroke-width=\"9\"/><path d=\"M139 141h50v14h-50Z\" fill=\"#edb677\" /></g></svg>",
+  "id": "n277"
+},
+{
+  "word": "せんぷうき",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"120\" cy=\"69\" rx=\"47\" ry=\"47\" fill=\"#9fcbb7\" /><ellipse cx=\"120\" cy=\"69\" rx=\"40\" ry=\"40\" fill=\"#fffdf6\" /><path d=\"M120 69q-34-48-47-10 8 20 47 10m0 0q58-5 32-33-21-5-32 33m0 0q-25 53 14 47 15-16-14-47\" fill=\"#9fcbb7\" stroke-width=\"2\"/><ellipse cx=\"120\" cy=\"69\" rx=\"7\" ry=\"7\" fill=\"#edb677\" /><path d=\"M120 117v29\" fill=\"none\" stroke-width=\"10\"/><ellipse cx=\"120\" cy=\"152\" rx=\"42\" ry=\"9\" fill=\"#9fcbb7\" /></g></svg>",
+  "id": "n278"
+},
+{
+  "word": "どらいやー",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M48 56h109q36 0 36 28t-36 28H48Z\" fill=\"#9fcbb7\" /><ellipse cx=\"48\" cy=\"84\" rx=\"15\" ry=\"28\" fill=\"#fffdf6\" /><path d=\"M116 112l-8 45h32l10-45Z\" fill=\"#edb677\" /><path d=\"M123 157q-13 23-36 6\" fill=\"none\" stroke-width=\"3\"/><path d=\"M43 67v33m9-32v30\" fill=\"none\" stroke-width=\"2\"/></g></svg>",
+  "id": "n279"
+},
+{
+  "word": "くし",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"34\" y=\"56\" width=\"173\" height=\"24\" rx=\"7\" fill=\"#edb677\" /><path d=\"M43 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M55 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M67 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M79 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M91 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M103 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M115 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M127 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M139 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M151 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M163 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M175 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M187 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/><path d=\"M199 80v47\" fill=\"none\" stroke=\"#b48b5e\" stroke-width=\"6\"/></g></svg>",
+  "id": "n280"
+},
+{
+  "word": "てぃっしゅ",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M43 89l108-17 47 29-110 20Z\" fill=\"#9fcbb7\" /><path d=\"M43 89v48l45 23v-39Z\" fill=\"#86b7a0\" /><path d=\"M88 121l110-20v44L88 160Z\" fill=\"#9fcbb7\" /><ellipse cx=\"119\" cy=\"96\" rx=\"30\" ry=\"6\" fill=\"#354b48\" /><path d=\"M101 96q9-25-5-45 23 8 31-16 22 22 14 59Z\" fill=\"#fffdf6\" /></g></svg>",
+  "id": "n281"
+},
+{
+  "word": "まくら",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M49 53q71 16 142 0-14 37 0 74-71-12-142 0 15-37 0-74Z\" fill=\"#fffdf6\" /><path d=\"M58 61q62 13 123 0-10 27 0 57-62-10-123 0 10-29 0-57Z\" fill=\"none\" stroke=\"#9fcbb7\" stroke-width=\"2\"/><path d=\"M69 76q7-5 16-2\" fill=\"none\" stroke=\"#d4e4da\"/></g></svg>",
+  "id": "n282"
+},
+{
+  "word": "ふとん",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M66 32h98l46 125H26Z\" fill=\"#fffdf6\" /><path d=\"M66 63h98l35 83H38Z\" fill=\"#9fcbb7\" /><path d=\"M66 63h98l4 14H61Z\" fill=\"#fffdf6\" /><rect x=\"84\" y=\"35\" width=\"59\" height=\"21\" rx=\"7\" fill=\"#fffdf6\" /><path d=\"M26 157v9h184v-9\" fill=\"#fffdf6\" /></g></svg>",
+  "id": "n283"
+},
+{
+  "word": "やかん",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M83 66q-6-55 37-55 45 0 38 55\" fill=\"none\" stroke-width=\"10\"/><path d=\"M76 73q-15 24-13 54 2 27 58 27t58-27q0-30-18-54Z\" fill=\"#9fcbb7\" /><path d=\"M74 100L42 72l-13 7 30 49\" fill=\"#9fcbb7\" /><ellipse cx=\"120\" cy=\"73\" rx=\"44\" ry=\"12\" fill=\"#fffdf6\" /><path d=\"M107 60v-6h26v6\" fill=\"none\" stroke-width=\"7\"/></g></svg>",
+  "id": "n284"
+},
+{
+  "word": "きゅうす",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M72 82q-17 55 44 61 56 3 48-61Z\" fill=\"#edb677\" /><path d=\"M77 92L45 71l-12 8 32 37\" fill=\"#edb677\" /><path d=\"M163 94l42-9 5 14-44 15\" fill=\"#edb677\" /><ellipse cx=\"118\" cy=\"80\" rx=\"45\" ry=\"12\" fill=\"#fffdf6\" /><ellipse cx=\"118\" cy=\"66\" rx=\"8\" ry=\"8\" fill=\"#9fcbb7\" /></g></svg>",
+  "id": "n285"
+},
+{
+  "word": "まないた",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M51 44h108v10h36v43h-36v46H51Z\" fill=\"#edb677\" /><ellipse cx=\"180\" cy=\"76\" rx=\"6\" ry=\"6\" fill=\"#fffdf6\" /><path d=\"M70 64v59m17-59v59m17-59v59m17-59v59m17-59v59\" fill=\"none\" stroke=\"#d09f65\" stroke-width=\"2\"/></g></svg>",
+  "id": "n286"
+},
+{
+  "word": "さいふ",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"49\" y=\"50\" width=\"144\" height=\"91\" rx=\"10\" fill=\"#edb677\" /><path d=\"M51 66h132v-17\" fill=\"none\" stroke=\"#b38452\" stroke-width=\"3\"/><rect x=\"148\" y=\"83\" width=\"53\" height=\"30\" rx=\"5\" fill=\"#9fcbb7\" /><ellipse cx=\"169\" cy=\"98\" rx=\"5\" ry=\"5\" fill=\"#fffdf6\" /><path d=\"M68 58V38h70v20\" fill=\"#9fcbb7\" /><path d=\"M78 46h50\" fill=\"none\" stroke=\"#6c9982\" stroke-width=\"2\"/></g></svg>",
+  "id": "n287"
+},
+{
+  "word": "でんち",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"62\" y=\"41\" width=\"36\" height=\"113\" rx=\"4\" fill=\"#9fcbb7\" /><rect x=\"71\" y=\"33\" width=\"18\" height=\"8\" rx=\"1\" fill=\"#354b48\" /><rect x=\"62\" y=\"41\" width=\"36\" height=\"28\" rx=\"3\" fill=\"#edb677\" /><path d=\"M73 55h14m-7-7v14\" fill=\"none\" /><rect x=\"141\" y=\"41\" width=\"36\" height=\"113\" rx=\"4\" fill=\"#9fcbb7\" /><rect x=\"150\" y=\"33\" width=\"18\" height=\"8\" rx=\"1\" fill=\"#354b48\" /><rect x=\"141\" y=\"41\" width=\"36\" height=\"28\" rx=\"3\" fill=\"#edb677\" /><path d=\"M151 55h16m-8-7v14\" fill=\"none\" /></g></svg>",
+  "id": "n288"
+},
+{
+  "word": "こんせんと",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"76\" y=\"23\" width=\"89\" height=\"136\" rx=\"9\" fill=\"#fffdf6\" /><rect x=\"91\" y=\"42\" width=\"59\" height=\"43\" rx=\"8\" fill=\"#9fcbb7\" /><rect x=\"91\" y=\"98\" width=\"59\" height=\"43\" rx=\"8\" fill=\"#9fcbb7\" /><path d=\"M108 53v19m26-19v19m-26 38v19m26-19v19\" fill=\"none\" stroke-width=\"6\"/></g></svg>",
+  "id": "n289"
+},
+{
+  "word": "ばんそうこう",
+  "g": "いえのもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"38\" y=\"67\" width=\"164\" height=\"48\" rx=\"22\" fill=\"#edb677\" transform=\"rotate(-22 120 91)\"/><rect x=\"95\" y=\"67\" width=\"49\" height=\"48\" rx=\"5\" fill=\"#fffdf6\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"60\" cy=\"79\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"60\" cy=\"91\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"60\" cy=\"103\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"77\" cy=\"79\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"77\" cy=\"91\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"77\" cy=\"103\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"164\" cy=\"79\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"164\" cy=\"91\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"164\" cy=\"103\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"181\" cy=\"79\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"181\" cy=\"91\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/><ellipse cx=\"181\" cy=\"103\" rx=\"2\" ry=\"2\" fill=\"#354b48\" stroke=\"none\" transform=\"rotate(-22 120 91)\"/></g></svg>",
+  "id": "n290"
+},
+{
+  "word": "だいこん",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M98 56q51-4 47 39-8 45-57 68 20-26 5-52-15-34 5-55Z\" fill=\"#fffdf6\" /><path d=\"M109 60q-43-28-22-48 22 12 29 41-10-47 17-43 12 27-10 48 33-38 47-19-2 22-47 26\" fill=\"#9fcbb7\" /><path d=\"M104 90l13 4m-16 19 12 3m-13 17 9 2\" fill=\"none\" stroke=\"#adc6b8\" stroke-width=\"2\"/></g></svg>",
+  "id": "n291"
+},
+{
+  "word": "きゃべつ",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"120\" cy=\"97\" rx=\"68\" ry=\"59\" fill=\"#9fcbb7\" /><path d=\"M118 153q-81-26-49-85 8 42 49 85m4 0q82-27 47-86-7 42-47 86m-4-6q-29-70 4-107 28 46 0 107\" fill=\"#b8d6a3\" stroke=\"#7b9e76\" stroke-width=\"3\"/><path d=\"M72 84q36 13 47 51m47-48q-35 14-44 47m-5-69 7 62\" fill=\"none\" stroke=\"#789b70\" stroke-width=\"2\"/></g></svg>",
+  "id": "n292"
+},
+{
+  "word": "ほうれんそう",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M114 153L73 58m43 95 8-111m-8 111 57-100\" fill=\"none\" stroke=\"#82a67f\" stroke-width=\"8\"/><path d=\"M74 86q-40-9-30-49 44-10 54 39Z\" fill=\"#9fcbb7\" /><path d=\"M122 91q-35-26-13-69 39-3 37 45Z\" fill=\"#9fcbb7\" /><path d=\"M143 93q-5-41 46-52 19 34-24 67Z\" fill=\"#9fcbb7\" /><path d=\"M113 152l-7 12m13-12 2 13\" fill=\"none\" stroke=\"#c78473\" stroke-width=\"6\"/></g></svg>",
+  "id": "n293"
+},
+{
+  "word": "かぼちゃ",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"120\" cy=\"104\" rx=\"74\" ry=\"48\" fill=\"#edb677\" /><ellipse cx=\"120\" cy=\"104\" rx=\"48\" ry=\"48\" fill=\"#edb677\" /><ellipse cx=\"120\" cy=\"104\" rx=\"23\" ry=\"48\" fill=\"#edb677\" /><path d=\"M112 57l1-24 16 2-3 23Z\" fill=\"#9fcbb7\" /><path d=\"M57 83q14-15 27-15\" fill=\"none\" stroke=\"#f5d3a3\" stroke-width=\"3\"/></g></svg>",
+  "id": "n294"
+},
+{
+  "word": "ぴーまん",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M119 60q-31-23-51 3-17 24 2 64 5 30 24 20 23 18 36 1 24 10 36-25 19-55-12-66-19-9-35 3Z\" fill=\"#9fcbb7\" /><path d=\"M107 60q8-15 11-34l17 1-8 37Z\" fill=\"#78a479\" /><path d=\"M91 76q-9 32 4 61m46-63q10 29-11 63\" fill=\"none\" stroke=\"#77a481\" stroke-width=\"3\"/></g></svg>",
+  "id": "n295"
+},
+{
+  "word": "れんこん",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"104\" cy=\"95\" rx=\"62\" ry=\"49\" fill=\"#edb677\" /><ellipse cx=\"104\" cy=\"86\" rx=\"62\" ry=\"49\" fill=\"#f1d8af\" /><ellipse cx=\"104\" cy=\"86\" rx=\"10\" ry=\"13\" fill=\"#fffdf6\" stroke=\"#b48d5d\" stroke-width=\"2\"/><ellipse cx=\"76\" cy=\"67\" rx=\"10\" ry=\"13\" fill=\"#fffdf6\" stroke=\"#b48d5d\" stroke-width=\"2\"/><ellipse cx=\"126\" cy=\"64\" rx=\"10\" ry=\"13\" fill=\"#fffdf6\" stroke=\"#b48d5d\" stroke-width=\"2\"/><ellipse cx=\"72\" cy=\"99\" rx=\"10\" ry=\"13\" fill=\"#fffdf6\" stroke=\"#b48d5d\" stroke-width=\"2\"/><ellipse cx=\"127\" cy=\"106\" rx=\"10\" ry=\"13\" fill=\"#fffdf6\" stroke=\"#b48d5d\" stroke-width=\"2\"/><ellipse cx=\"174\" cy=\"121\" rx=\"30\" ry=\"23\" fill=\"#f1d8af\" /><ellipse cx=\"166\" cy=\"113\" rx=\"5\" ry=\"6\" fill=\"#fffdf6\" stroke=\"#b48d5d\" stroke-width=\"2\"/><ellipse cx=\"185\" cy=\"119\" rx=\"5\" ry=\"6\" fill=\"#fffdf6\" stroke=\"#b48d5d\" stroke-width=\"2\"/><ellipse cx=\"170\" cy=\"132\" rx=\"5\" ry=\"6\" fill=\"#fffdf6\" stroke=\"#b48d5d\" stroke-width=\"2\"/></g></svg>",
+  "id": "n296"
+},
+{
+  "word": "とうふ",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"120\" cy=\"138\" rx=\"86\" ry=\"22\" fill=\"#9fcbb7\" /><path d=\"M66 62l80-13 32 29-80 17Z\" fill=\"#fffdf6\" /><path d=\"M66 62v58l32 28V95Z\" fill=\"#edf0e1\" /><path d=\"M98 95l80-17v56l-80 14Z\" fill=\"#fffdf6\" /><path d=\"M146 49v17\" fill=\"none\" stroke=\"#d4dbca\" stroke-width=\"2\"/></g></svg>",
+  "id": "n297"
+},
+{
+  "word": "なっとう",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M53 77l125-7 17 73-128 10Z\" fill=\"#fffdf6\" /><path d=\"M63 86l107-6 11 55-107 10Z\" fill=\"#d8bb89\" /><ellipse cx=\"84\" cy=\"100\" rx=\"9\" ry=\"6\" fill=\"#edb677\" stroke=\"#b48b59\" stroke-width=\"2\"/><ellipse cx=\"110\" cy=\"95\" rx=\"9\" ry=\"6\" fill=\"#edb677\" stroke=\"#b48b59\" stroke-width=\"2\"/><ellipse cx=\"138\" cy=\"97\" rx=\"9\" ry=\"6\" fill=\"#edb677\" stroke=\"#b48b59\" stroke-width=\"2\"/><ellipse cx=\"160\" cy=\"95\" rx=\"9\" ry=\"6\" fill=\"#edb677\" stroke=\"#b48b59\" stroke-width=\"2\"/><ellipse cx=\"95\" cy=\"122\" rx=\"9\" ry=\"6\" fill=\"#edb677\" stroke=\"#b48b59\" stroke-width=\"2\"/><ellipse cx=\"125\" cy=\"120\" rx=\"9\" ry=\"6\" fill=\"#edb677\" stroke=\"#b48b59\" stroke-width=\"2\"/><ellipse cx=\"155\" cy=\"120\" rx=\"9\" ry=\"6\" fill=\"#edb677\" stroke=\"#b48b59\" stroke-width=\"2\"/><path d=\"M107 98l22-61m-7 59 17-56\" fill=\"none\" stroke=\"#ddd0ad\" stroke-width=\"2\"/><path d=\"M130 40l61-21m-53 28 60-21\" fill=\"none\" stroke=\"#b78a5d\" stroke-width=\"5\"/><ellipse cx=\"134\" cy=\"40\" rx=\"9\" ry=\"6\" fill=\"#edb677\" stroke=\"#b48b59\" stroke-width=\"2\"/></g></svg>",
+  "id": "n298"
+},
+{
+  "word": "みそしる",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M51 82q3 58 69 66 67-9 70-66Z\" fill=\"#a97151\" /><ellipse cx=\"120\" cy=\"82\" rx=\"69\" ry=\"24\" fill=\"#cfa774\" /><rect x=\"84\" y=\"70\" width=\"24\" height=\"14\" rx=\"2\" fill=\"#fffdf6\" /><rect x=\"136\" y=\"83\" width=\"24\" height=\"13\" rx=\"2\" fill=\"#fffdf6\" /><path d=\"M119 69l9 5-6 8-14-4Z\" fill=\"#9fcbb7\" /><path d=\"M68 88l11 7 11-5-13-8Z\" fill=\"#9fcbb7\" /><path d=\"M99 46q-12-13 0-24m34 24q-12-13 0-24\" fill=\"none\" stroke=\"#abbcaf\" stroke-width=\"3\"/><path d=\"M101 145v10h38v-10\" fill=\"#a97151\" /></g></svg>",
+  "id": "n299"
+},
+{
+  "word": "うめぼし",
+  "g": "たべもの",
+  "art": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" aria-hidden=\"true\"><g stroke=\"#354b48\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse cx=\"120\" cy=\"126\" rx=\"75\" ry=\"23\" fill=\"#fffdf6\" /><ellipse cx=\"103\" cy=\"100\" rx=\"29\" ry=\"29\" fill=\"#c57c69\" /><ellipse cx=\"148\" cy=\"108\" rx=\"25\" ry=\"25\" fill=\"#c57c69\" /><path d=\"M86 88q23 6 11 26m14-36q15 12 3 26m-26 13q9-13 21 3m27-24q18 9 9 25m15-20q10 10 1 21\" fill=\"none\" stroke=\"#a05c51\" stroke-width=\"2\"/></g></svg>",
+  "id": "n300"
+}
 ];
