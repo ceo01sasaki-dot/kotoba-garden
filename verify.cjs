@@ -37,3 +37,5 @@ for(let i=0;i<100;i++){
 if(seen.size!==4)throw Error('Not all positions reachable');
 `,c);
 console.log('PASS: all 60 noun courses and choices have one category; たたく exists; random review positions, no consecutive repeats, immutable attempts, stable feedback.');
+
+require("./verify-levels.cjs");
