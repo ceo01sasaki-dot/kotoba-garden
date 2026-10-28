@@ -16,3 +16,5 @@
 .vocab-item:has(.sequence)>span:not(.scene){padding-left:10px}
 @media(max-width:750px){.choices:has(.sequence){grid-template-columns:1fr}.choice.picture:has(.sequence){height:230px}.prompt-card:has(.sequence){height:220px}.result-list:has(.sequence){grid-template-columns:1fr 1fr}.mini-word:has(.sequence) .scene{height:110px}}
 @media(max-width:470px){.choice.picture:has(.sequence){height:190px}.prompt-card:has(.sequence){height:170px}.result-list:has(.sequence){grid-template-columns:1fr}.mini-word:has(.sequence) .scene{height:150px}}
+
+.noun-category{margin:30px 0 40px;padding-top:18px;border-top:2px solid var(--line,#dce5d6)}.noun-category h3{font-size:24px;margin:0 0 7px}.category-words{color:var(--muted);margin:0 0 16px}.noun-category .round-grid{margin-top:0}

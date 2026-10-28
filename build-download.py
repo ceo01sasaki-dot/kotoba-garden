@@ -3,6 +3,7 @@ import re,zipfile
 root=Path(__file__).parent
 out=root/'dist'
 html=(out/'index.html').read_text()
+html=re.sub(r'(style\.css|verbs\.js|nouns\.js|app\.js)\?v=[^\"]+',r'\1',html)
 html=html.replace('<link rel="stylesheet" href="style.css">','<style>'+(out/'style.css').read_text()+'</style>')
 html=re.sub(r'<a[^>]*href="download.html"[^>]*>.*?</a>','<span>ダウンロード版</span>',html)
 for name in ['verbs.js','nouns.js','app.js']:
@@ -31,7 +32,7 @@ Web版の記録はダウンロード版へ自動で引き継がれません。
 ダウンロード版は自動更新されません。変更があればWeb版から再度ダウンロードしてください。
 
 公開URL
-https://kotoba-garden-nihongo.nuttywand13.chatgpt.site
+https://ceo01sasaki-dot.github.io/kotoba-garden/
 '''
 with zipfile.ZipFile(folder/'kotoba-garden.zip','w',zipfile.ZIP_DEFLATED) as z:
     z.writestr('kotoba-garden.html',html)

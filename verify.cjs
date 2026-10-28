@@ -11,10 +11,29 @@ const oldContext={...c,window:{scrollTo(){}},localStorage:{getItem(){return JSON
 vm.createContext(oldContext);vm.runInContext(fs.readFileSync('dist/app.js','utf8'),oldContext);
 assert.equal(vm.runInContext("saved.previousVerbScores['verb-0'].best",oldContext),9);
 assert.equal(vm.runInContext("done('verb')",oldContext),0);
-assert.equal(vm.runInContext("saved.scores['noun-0'].best",oldContext),7);
-assert.equal(vm.runInContext("done('noun')",oldContext),1);
-console.log('PASS: earlier verb results archived; noun progress retained.');
+assert.equal(vm.runInContext("saved.previousNounScores['noun-0'].best",oldContext),7);
+assert.equal(vm.runInContext("done('noun')",oldContext),0);
+console.log('PASS: earlier verb results archived; reorganized noun results archived.');
 
 assert.equal(vm.runInContext("saved.previousNounScores['noun-25'].best",oldContext),8);
 assert.equal(vm.runInContext("saved.scores['noun-25']",oldContext),undefined);
 console.log('PASS: changed noun courses archived without losing scores.');
+
+// Every noun course and every distractor stays inside one category.
+for(let r=0;r<60;r++){const qs=c.makeQuestions('noun',r);assert.equal(new Set(qs.map(q=>q.target.g)).size,1);for(const q of qs)assert(q.options.every(w=>w.g===q.target.g));}
+assert.equal(c.VERBS.filter(w=>w.word==='たたく').length,1);
+// Review repeatedly: all four positions occur, consecutive correct positions differ,
+// question objects from the completed attempt are not mutated, feedback never reshuffles.
+vm.runInContext(`
+state.kind='noun';start(0);const original=state.questions.map(q=>({...q,options:[...q.options]}));
+const originalOrder=original[0].options.map(w=>w.id).join(',');const seen=new Set();let last=-1;
+for(let i=0;i<100;i++){
+ start(0,[original[0]]);const q=state.questions[0],pos=q.options.findIndex(w=>w.id===q.target.id);
+ if(pos===last)throw Error('Correct answer repeated position');seen.add(pos);last=pos;
+ const before=q.options.map(w=>w.id).join(',');answer(q.options.find(w=>w.id!==q.target.id).id);
+ if(state.questions[0].options.map(w=>w.id).join(',')!==before)throw Error('Feedback shuffled choices');
+ if(original[0].options.map(w=>w.id).join(',')!==originalOrder)throw Error('Original question mutated');
+}
+if(seen.size!==4)throw Error('Not all positions reachable');
+`,c);
+console.log('PASS: all 60 noun courses and choices have one category; たたく exists; random review positions, no consecutive repeats, immutable attempts, stable feedback.');
